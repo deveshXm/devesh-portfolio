@@ -2,7 +2,7 @@ import React from 'react'
 
 function Project() {
   return (
-    <div>Project</div>
+    <div className='z-10 text-white'>Project</div>
   )
 }
 

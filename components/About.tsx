@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 function About() {
   return (
-    <div className="max-w-[60%] z-10 mt-44">
+    <div className="max-w-[60%] z-10 mt-40">
       <h1 className=" text-[#5D3FD3] font-semibold   text-4xl mr-[60%]">
         &lt;About&gt;
       </h1>
@@ -19,7 +19,7 @@ function About() {
         </h2>
       </div>
       <br/>
-      <h1 className=" text-[#5D3FD3] font-semibold  mb-[20%] text-4xl mr-[60%]">
+      <h1 className=" text-[#5D3FD3] font-semibold text-4xl mr-[60%]">
         &lt;/About&gt;
       </h1>
     </div>
