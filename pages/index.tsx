@@ -1,22 +1,31 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
+import type { NextPage } from "next";
+import Head from "next/head";
+import About from "../components/About";
+import Navbar from "../components/Navbar";
+import ParticleBackground from "../components/ParticleBackground"
 
 const Home: NextPage = () => {
+  
   return (
-    <div className="">
+    <div className="font-body">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Porfolio | Home</title>
       </Head>
-      <div className='bg-[#202020] h-screen'>
+      <Navbar />
         
-      </div>
-      <div className='bg-white h-screen'>
-
-      </div>
+      
+      <main className="font-body">
+        <ParticleBackground />
+        <div className="h-screen content-center flex flex-col items-center justify-center">
+          <h1 className="absolute text-[#5D3FD3] font-semibold  mb-[20%] text-4xl mr-[60%]">
+            &lt;Body&gt;
+          </h1>
+          <About />
+        </div>
+        
+      </main>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
