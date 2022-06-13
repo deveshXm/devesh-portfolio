@@ -14,7 +14,7 @@ function About() {
   };
 
   return (
-    <div className="max-w-[60%]">
+    <div className="max-w-[60%] z-10">
       {!show ? (
         <div className="text-4xl text-white" onKeyPress={handleKeypress}>
           <Typewriter
