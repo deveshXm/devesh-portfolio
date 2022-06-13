@@ -7,7 +7,7 @@ import Project from "../components/Project";
 
 const Home: NextPage = () => {
   return (
-    <div className="font-body">
+    <div className="font-body ">
       <Head>
         <title>Porfolio | Home</title>
       </Head>

@@ -91,8 +91,8 @@ const ParticlesComponent = (props) => {
             mode: "bubble",
           },
           onclick: {
-            enable: false,
-            mode: "push",
+            enable: true,
+            mode: "repulse",
           },
           resize: true,
         },
@@ -105,10 +105,10 @@ const ParticlesComponent = (props) => {
           },
           bubble: {
             distance: 170.2872990001704,
-            size: 5,
+            size: 7,
             duration: 2,
-            opacity: 1,
-            speed: 3,
+            opacity: 10,
+            speed: 7,
           },
           repulse: {
             distance: 200,
