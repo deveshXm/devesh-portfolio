@@ -9,6 +9,7 @@
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
     "react-tsparticles": "^2.0.6",
     "tsparticles-slim": "^2.0.6"
   },
