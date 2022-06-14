@@ -133,7 +133,7 @@ const ParticlesComponent = (props) => {
   }, []);
 
   // setting an id can be useful for identifying the right particles component, this is useful for multiple instances or reusable components
-  return <Particles id={props.id} init={particlesInit} options={options} className='h-[200%]' />;
+  return <Particles id={props.id} init={particlesInit} options={options} />;
 };
 
 export default ParticlesComponent;
