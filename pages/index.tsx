@@ -17,10 +17,10 @@ const Home: NextPage = () => {
         <div className="absolute my-4 ml-4">
           <h1 className="font-bold text-6xl text-white ">Devesh Meena</h1>
         </div>
-        <div className="h-screen content-center flex flex-col items-center justify-center">
+        <div className="h-screen content-center flex items-center justify-center">
           <About />
         </div>
-        <div className="h-screen content-center flex flex-col items-center justify-center">
+        <div className="h-screen content-center flex items-center justify-center">
           <Project />
         </div>
       </main>
