@@ -3,10 +3,10 @@ import React, { useEffect, useState } from "react";
 function About() {
   return (
     <div className="flex justify-center h-screen items-center relative">
-      <div className="absolute text-opacity-20 text-[18vw] font-sans font-bold -translate-y-60 opacity-60">
+      <div className="absolute text-opacity-20 text-[18vw] font-sans font-bold -translate-y-60 2xl:-translate-y-96 opacity-60">
         <p>ABOUT ME</p>
       </div>
-      <div className="relative md:text-2xl text-white max-w-[80%] md:max-w-[60%]">
+      <div className="relative md:text-2xl 2xl:text-5xl text-white max-w-[80%] md:max-w-[60%] 2xl:max-w-[70%]">
         <h2>
           I am a 20-year-old from India and I am currently studying Computer
           Science at NIT, Jalandhar.

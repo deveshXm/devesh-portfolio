@@ -25,7 +25,7 @@ function Project() {
       <div className="absolute text-white text-opacity-20 text-[20vw] font-sans font-bold -translate-y-28">
         <p>WORK</p>
       </div>
-      <div className="relative max-w-[90%] md:max-w-[60%] w-[90%] md:mt-40 text-white ">
+      <div className="relative max-w-[90%] md:max-w-[60%] w-[90%] md:mt-40 text-white 2xl:py-96 md:py-24 ">
         <div className=" py-10  flex justify-center">
           <Card />
         </div>
