@@ -91,7 +91,7 @@ const ParticlesComponent = (props) => {
             mode: "bubble",
           },
           onclick: {
-            enable: true,
+            enable: false,
             mode: "repulse",
           },
           resize: true,
