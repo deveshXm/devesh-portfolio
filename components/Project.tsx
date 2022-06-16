@@ -9,7 +9,7 @@ function Project() {
       time: "May-June 2022",
       info: "Matinee is a movie watching platform which also recommends movie to user based on last watch",
       language: "TailwindCSS NextJs Python FastApi",
-      link: "https://github.com/deveshXm/Flood-Prediction",
+      link: "https://github.com/deveshXm/matinee",
     },
     {
       id: "p2",
@@ -17,7 +17,7 @@ function Project() {
       time: "April 2022",
       info: "Prediction flood chances in an area using Linear Regression",
       language: "Python",
-      link: "https://github.com/deveshXm/matinee",
+      link: "https://github.com/deveshXm/Flood-Prediction",
     },
   ];
   return (
@@ -25,9 +25,12 @@ function Project() {
       <div className="absolute text-white text-opacity-20 text-[20vw] font-sans font-bold -translate-y-28">
         <p>WORK</p>
       </div>
-      <div className="relative max-w-[90%] md:max-w-[60%] w-[90%] md:mt-40 text-white 2xl:py-96 md:py-24 ">
-        <div className=" py-10  flex justify-center">
-          <Card />
+      <div className="relative max-w-[90%] md:max-w-[70%] w-[90%] md:mt-40 text-white 2xl:py-96 md:py-24 ">
+        <div className=" py-10  flex flex-col space-y-8 overflow-visible ">
+          {projects.map((projects)=>(
+            <Card heading ={projects.heading} time = {projects.time} info = {projects.info} language ={projects.language} link = {projects.link} />
+          ))}
+          
         </div>
       </div>
     </div>
