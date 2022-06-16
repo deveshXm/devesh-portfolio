@@ -9,7 +9,7 @@ function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="flex fixed top-0 z-[1000] w-full text-white p-12 2xl:text-3xl font-bold justify-end bg-gradient-to-t from-transparent to-black">
+    <div className="flex fixed top-0 z-[1000] w-full text-white p-8 2xl:text-3xl font-bold justify-end bg-gradient-to-t from-transparent to-black">
       <ul className="hidden xl:flex space-x-12">
         <li className=" flex ml-auto">
           <p className=" text-[#5D3FD3]">me</p>.About()
