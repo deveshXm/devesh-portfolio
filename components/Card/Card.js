@@ -16,7 +16,7 @@ function Card(props) {
       </div>
       <div className="flex justify-center pt-10">
         <Link href={props.link}>
-          <div className="flex items-center justify-center py-2 border-2 border-gray-400 w-[70%] md:w-[50%]  sm:hover:border-gray-200 sm:hover:bg-black sm:hover:bg-opacity-30 sm:hover:cursor-pointer transition duration-300">
+          <div className="flex items-center justify-center py-2 border-2 border-gray-400 w-[70%] md:w-[50%]  sm:hover:border-[#5D3FD3] sm:hover:bg-black sm:hover:bg-opacity-30 sm:hover:cursor-pointer transition duration-300">
             <p>Link to Repo</p>
             <VscGithub className="ml-5 text-[#5D3FD3]" size={40} />
           </div>
