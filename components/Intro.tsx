@@ -13,7 +13,7 @@ function Intro() {
 
   return (
     <div className="relative my-4 ml-4 h-screen flex items-center justify-center">
-      <div className="text-white font-sans font-bold text-5xl md:text-9xl">
+      <div className="text-white font-sans font-bold text-5xl md:text-9xl 2xl:text-[12vw]">
         <div>
           Hi!{" "}
           <div className="flex">
