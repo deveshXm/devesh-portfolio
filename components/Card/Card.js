@@ -6,8 +6,7 @@ function Card(props) {
   const heading = "Matinee";
   const time = "May-June 2022";
   const info =
-    "Matinee is a movie watching platform which also recommends movie to user based on last watch.
-    ";
+    "Matinee is a movie watching platform which also recommends movie to user based on last watch."
   const language = "TailwindCSS NextJs Python FastApi";
   const link = "https://github.com/deveshXm/matinee";
 
