@@ -9,7 +9,7 @@ function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="flex fixed z-[1000] w-full text-white pr-12 py-10 font-bold justify-end">
+    <div className="flex fixed top-0 z-[1000] w-full text-white p-12 font-bold justify-end bg-gradient-to-t from-transparent to-black">
       <ul className="hidden xl:flex space-x-12">
         <li className=" flex ml-auto">
           <p className=" text-[#5D3FD3]">me</p>.About()
@@ -24,9 +24,10 @@ function Navbar() {
           <p className=" text-[#5D3FD3]">me</p>.Contact()
         </li>
       </ul>
-      <div className=" ml-12 block xl:hidden hover:cursor-pointer " onClick={handleNav}>
+        <div className=" ml-12 block xl:hidden hover:cursor-pointer" onClick={handleNav}>
         {!nav ? <AiOutlineClose size={40} /> : <AiOutlineMenu size={40} />}
       </div>
+      
       <div className= {!nav ? 'fixed left-0 top-0 h-full bg-opacity-50 backdrop-blur-md bg-black w-60 border-r border-r-gray-500 z-[1000] ease-in-out duration-500' : 'fixed left-[-100%] top-0 h-full bg-opacity-50 backdrop-blur-md bg-black w-60 border-r border-r-gray-500 z-[1000] ease-in duration-500 '}>
         <ul className="pt-24 w-full">
           <li className=" flex border-b border-b-[#5D3FD3] py-4 pl-4">
