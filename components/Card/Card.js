@@ -1,13 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import {VscGithub} from 'react-icons/vsc'
 
 function Card(props) {
   const heading = "Matinee";
   const time = "May-June 2022";
   const info =
-    "Matinee is a movie watching platform which also recommends movie to user based on last watch";
+    "Matinee is a movie watching platform which also recommends movie to user based on last watch.
+    ";
   const language = "TailwindCSS NextJs Python FastApi";
-  const link = "https://github.com/deveshXm/Flood-Prediction";
+  const link = "https://github.com/deveshXm/matinee";
 
   return (
     <div className="py-7 px-5 xl:px-10 w-[90%] border border-gray-400">
@@ -21,8 +23,9 @@ function Card(props) {
       </div>
       <div className="flex justify-center pt-10">
         <Link href={link}>
-          <div className="flex justify-center py-5 border border-gray-500 w-[60%] md:w-[50%] sm:hover:border-gray-200 sm:hover:bg-black sm:hover:bg-opacity-30 sm:hover:cursor-pointer">
-            Link to Repo
+          <div className="flex items-center justify-center py-2 border-2 border-gray-400 w-[70%] md:w-[50%]  sm:hover:border-gray-200 sm:hover:bg-black sm:hover:bg-opacity-30 sm:hover:cursor-pointer">
+              <p>Link to Repo</p>
+              <VscGithub className = 'ml-5 text-[#5D3FD3]' size={40}/>            
           </div>
         </Link>
       </div>
