@@ -21,7 +21,7 @@ function Project() {
     },
   ];
   return (
-    <div className=" relative bg-black">
+    <div className=" relative bg-black py-32">
       <div className="pl-2 text-[#202020] text-[20vw] font-sans font-bold ">
         <p>WORK</p>
       </div>
