@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import About from "../components/About";
+import Contact from "../components/Contact";
+import Experience from "../components/Experience";
 import Intro from "../components/Intro";
 import Navbar from "../components/Navbar";
 import ParticleBackground from "../components/ParticleBackground";
@@ -18,6 +20,8 @@ const Home: NextPage = () => {
         <Intro />
         <About />
         <Project />
+        <Experience/>
+        <Contact/>
       </main>
     </div>
   );

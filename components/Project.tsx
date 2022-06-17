@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card/Card.js";
+import Card from "./Card.js";
 
 function Project() {
   const projects = [
@@ -21,17 +21,14 @@ function Project() {
     },
   ];
   return (
-    <div className=" relative flex justify-center bg-black md:py-14 py-28 overflow-x-hidden overflow-y-hidden">
-      <div className="absolute text-[#202020] text-[20vw] font-sans font-bold -translate-y-28">
+    <div className=" relative bg-black">
+      <div className="pl-2 text-[#202020] text-[20vw] font-sans font-bold ">
         <p>WORK</p>
       </div>
-      <div className="relative max-w-[90%] md:max-w-[70%] w-[90%] md:mt-40 text-white 2xl:py-96 sm:py-24 ">
-        <div className=" py-10  flex flex-col space-y-8 overflow-visible ">
+      <div className="text-white  space-y-6">
           {projects.map((projects)=>(
             <Card heading ={projects.heading} time = {projects.time} info = {projects.info} language ={projects.language} link = {projects.link} />
           ))}
-          
-        </div>
       </div>
     </div>
   );
